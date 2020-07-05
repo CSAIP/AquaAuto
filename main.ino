@@ -16,7 +16,7 @@ void loop() {
 
 
 
-  if (percent < 18 ) {
+  if (percent < 15 ) {
       digitalWrite(12, HIGH);   
       delay(1000);              
       digitalWrite(12, LOW);   
@@ -26,7 +26,7 @@ void loop() {
 
   
   printValues();
-  delay(500);
+  delay(1000);
 
  
 }
