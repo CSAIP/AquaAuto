@@ -16,7 +16,7 @@ void loop() {
 
 
 
-  if (percent < 20 ) {
+  if (percent < 18 ) {
       digitalWrite(12, HIGH);   
       delay(1000);              
       digitalWrite(12, LOW);   
@@ -40,11 +40,11 @@ int convertToPercent(int value)
 
 void printValues()
 {
-//  Serial.print("\n\nAnalog Value: ");
-//  Serial.print(sensorValue);
-//  Serial.print("\nPercent: ");
-//  Serial.print(percent);
-//  Serial.print("%\n");
+ Serial.print("\n\nAnalog Value: ");
+ Serial.print(sensorValue);
+ Serial.print("\nPercent: ");
+ Serial.print(percent);
+ Serial.print("%\n");
 
 //  Serial.print(100);
 //  Serial.print(" ");
